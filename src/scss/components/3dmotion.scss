@@ -1,10 +1,10 @@
 @import "../config/mixins";
 @import "../config/functions";
 
- .motion {
+.motion {
 	display: flex;
-	position: relative;
-    height: 693px;
+	// position: relative;
+	height: 693px;
 	border-bottom: 1px solid var(--secondary-color);
 
 	@include media-mx(1230) {
@@ -22,52 +22,52 @@
 	@include media-mx(640) {
 		height: 361px;
 	}
-  }
+}
 
-  .motion_img {
+.motion_img {
 	position: absolute;
 	top: 0px;
-	right: -26vw;
+	right: -26%;
 	object-fit: cover;
-  }
+}
 
-  .motion__container {
+.motion__container {
 	justify-self: self-start;
 	padding-right: 15%;
 	display: flex;
 	align-items: center;
-  }
+	position: relative;
+}
 
-  .motion_field {
+.motion_field {
 	display: flex;
 	width: 100%;
 
 	justify-content: start;
 	align-items: center;
-  }
+}
 
-  .motion_content {
+.motion_content {
 	display: flex;
 	flex-direction: column;
 	// padding-top: clamp(50px, 11.25vw, 135px);
 	// padding-bottom: clamp(90px, 18.33vw, 220px);
 	// width: (clamp(300px, 62.5vw, 750px));
 	z-index: 2;
-    max-width: 85%;
+	max-width: 85%;
+}
 
-  }
-
-  .motion_title {
+.motion_title {
 	font-family: "Integral CF Bold";
 	font-size: clamp(30px, 5vw, 60px);
 	font-style: normal;
 	text-transform: uppercase;
 	font-weight: bold;
 	-webkit-text-stroke-color: gray;
-    -webkit-text-stroke-width: 1px;
-  }
+	-webkit-text-stroke-width: 1px;
+}
 
-  .motiom_text {
+.motiom_text {
 	font-size: clamp(20px, 2.83vw, 34px);
 	font-style: normal;
 	font-weight: 350;
@@ -76,10 +76,10 @@
 	padding-bottom: 35px;
 	text-wrap: balance;
 	-webkit-text-stroke-color: gray;
-    -webkit-text-stroke-width: 1px;
-  }
+	-webkit-text-stroke-width: 1px;
+}
 
-  .motion_btn {
+.motion_btn {
 	color: var(--bs-font-color);
 	text-transform: uppercase;
 
@@ -93,11 +93,9 @@
 	border: 1px solid var(--bs-font-color);
 	background: var(--primary-color);
 	align-self: flex-start;
-  }
+}
 
-  .motion_btn:hover{
-		background: var(--primary-hover-color);
-		transition-duration: 225ms;
-	}
-
-
+.motion_btn:hover {
+	background: var(--primary-hover-color);
+	transition-duration: 225ms;
+}
