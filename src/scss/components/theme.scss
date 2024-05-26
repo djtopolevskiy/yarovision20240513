@@ -1,0 +1,48 @@
+.dark {
+	// Кольори темної теми (дефолтна тема)
+	--bs-font-color: #ffffff;
+	--primary-color: #131313;
+	--primary-hover-color: #438EFF;
+    --secondary-color: #438EFF;
+	--white-color: #fff;
+	--black-color: #131313;
+	--bs-shadow: 0px 2px 3px #{rgba(#000, 10%)}, 0px 8px 3px #{rgba(#000, 10%)};
+	--hover-shadow: 0 0 5px 0 #{rgba(#000, 10%)}, 0 0 10px 0 #{rgba(#000, 10%)}, 0 0 15px 0 #{rgba(#000, 10%)};
+
+	--bs-transition: 0.3s ease-in-out;
+	--bs-radius: 10px;
+
+    .chenge-button[data-theme="light"] {
+        display: none;
+}
+
+    .chenge-button[data-theme="dark"] {
+        display: block;
+    }
+
+}
+
+
+.light {
+	// Кольори темної теми (дефолтна тема)
+	--bs-font-color: #131313;
+	--primary-color: #fff;
+	--primary-hover-color: #438EFF;
+    --secondary-color: #438EFF;
+	--white-color: #fff;
+	--black-color: #131313;
+	--bs-shadow: 0px 2px 3px #{rgba(#000, 10%)}, 0px 8px 3px #{rgba(#000, 10%)};
+	--hover-shadow: 0 0 5px 0 #{rgba(#000, 10%)}, 0 0 10px 0 #{rgba(#000, 10%)}, 0 0 15px 0 #{rgba(#000, 10%)};
+
+	--bs-transition: 0.3s ease-in-out;
+	--bs-radius: 10px;
+
+	.chenge-button[data-theme="light"] {
+        display: block;
+    }
+
+    .chenge-button[data-theme="dark"] {
+        display: none;
+    }
+}
+

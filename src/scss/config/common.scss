@@ -1,0 +1,67 @@
+// Кольорова гама усіх елементів...
+
+@import "../config/functions";
+@import "../config/mixins";
+
+
+.page {
+    color: var(--bs-font-color);
+	background: linear-gradient(90deg, rgb(152, 152, 152) 0%, var(--primary-color) 100%);
+}
+
+a {
+	color: var(--bs-font-color);
+}
+
+a:hover {
+	color: var(--primary-hover-color);
+	transition-duration: 225ms;
+}
+
+svg:hover {
+	fill: var(--primary-hover-color);
+	transition-duration: 225ms;
+}
+
+
+// Burger
+
+.icon-menu {
+
+  @include media-mx(768) {
+    span,
+    &::before,
+    &::after {
+      background-color: var(--bs-font-color);
+    }
+  }
+}
+
+button {
+	background-color: transparent;
+}
+
+.mobile-nav {
+
+	// background: linear-gradient(90deg, rgba(138, 138, 138, 1) 0%, var(--primary-color) 100%);
+	// transition: all 0.2s ease-in;
+	border: 1px solid var(--secondary-color);
+}
+
+.mobile-nav a {
+	color: var(--bs-font-color);
+}
+
+.mobile-nav__list {
+
+
+	& .active {
+		opacity: 0.5;
+	}
+
+	a:hover {
+		color: var(--secondary-color);
+		transition-duration: 225ms;
+	}
+}
+

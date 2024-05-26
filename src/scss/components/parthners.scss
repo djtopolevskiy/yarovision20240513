@@ -1,0 +1,33 @@
+.parthners_list {
+	background-color: #131313;
+	display: flex;
+	width: 100%;
+	justify-content: space-around;
+	align-items: center;
+
+
+	padding-top: clamp(20px, 04.16vw, 50px);
+	padding-bottom: clamp(20px, 04.16vw, 50px);
+
+	border-bottom: 1px solid var(--secondary-color);
+  }
+
+.parthners_imgblock {
+	position: relative;
+	display: flex;
+	width: 15vw;
+	height: 10vw;
+}
+
+.parthners_image {
+	display: flex;
+		position: absolute;
+		left: 0;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		object-fit: cover;
+		width: 15vw;
+}
+
+

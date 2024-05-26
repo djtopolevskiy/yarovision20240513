@@ -1,0 +1,53 @@
+.advant_block_1 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  justify-content: start;
+  align-items: center;
+  padding: 18px 18px;
+  gap: 10px;
+}
+
+.adv_block_pick {
+  position: relative;
+  width: 65px;
+  height: 65px;
+  img {
+    top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+    position: absolute;
+  }
+}
+
+.adv_block_title {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 16px;
+
+  p {
+	font-size: rem(16);
+	color: var(--secondary-color);
+	text-transform: uppercase;
+	text-align: center;
+  }
+}
+
+.adv_block_text {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+
+  font-family: Montserrat;
+//   font-size: 16px;
+  font-size: clamp(16px, 2vw, 20px);
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+
+  p {
+    text-align: center;
+  }
+}

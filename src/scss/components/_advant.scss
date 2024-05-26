@@ -1,0 +1,74 @@
+.advant {
+  position: relative;
+}
+
+.advant_roy {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  position: relative;
+  padding-top: clamp(10px, 4.58vw, 55px);
+  padding-left: clamp(10px, 4.83vw, 58px);
+  padding-right: clamp(10px, 4.83vw, 58px);
+  padding-bottom: clamp(10px, 8.5vw, 102px);
+  gap: 55px;
+
+  @media (min-width: 1065px) {
+    .swiper {
+      display: none;
+    }
+  }
+
+  @media (max-width: 1065px) {
+    .advant_blocks {
+      display: none;
+    }
+  }
+}
+
+.advant_title {
+  font-size: clamp(35px, 3.75vw, 45px);
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  z-index: 1;
+  text-align: center;
+  -webkit-text-stroke-color: gray;
+  -webkit-text-stroke-width: 1px;
+}
+
+.advant_blocks {
+  display: flex;
+  justify-content: space-between;
+  gap: clamp(0px, 6.25vw, 75px);
+  z-index: 1;
+}
+
+.advant_block_item {
+  width: 301px;
+  height: 391px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 72px;
+  border: 1px solid var(--secondary-color);
+  backdrop-filter: blur(20px);
+}
+
+.advant_art {
+  display: flex;
+
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+.advant_img {
+  // object-fit: cover;
+  // flex: 0 0 100%;
+  max-width: 100%;
+  height: 100%;
+}
