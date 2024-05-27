@@ -5,4 +5,14 @@
 	z-index: 1;
 	display: flex;
 	justify-content: space-between;
+
+
+
+@include media-mx(768) {
+	height: 325px;
+}
+
+@include media-mx(640) {
+	height: 250px;
+}
   }

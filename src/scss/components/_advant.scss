@@ -1,5 +1,26 @@
+@import "../config/mixins";
+@import "../config/functions";
+
+
 .advant {
   // position: relative;
+  border-bottom: 1px solid var(--secondary-color);
+
+	@include media-mx(1230) {
+		height: 533px;
+	}
+
+	// @include media-mx(1023) {
+	// 	height: 577px;
+	// }
+
+	@include media-mx(768) {
+		height: 415px;
+	}
+
+	@include media-mx(640) {
+		height: 361px;
+	}
 }
 
 .advant__container {
@@ -13,11 +34,11 @@
   align-items: center;
   width: 100%;
   position: relative;
-  padding-top: clamp(10px, 4.58vw, 55px);
+  padding-top: clamp(10px, 2vw, 25px);
   padding-left: clamp(10px, 4.83vw, 58px);
   padding-right: clamp(10px, 4.83vw, 58px);
-  padding-bottom: clamp(10px, 8.5vw, 102px);
-  gap: 55px;
+  padding-bottom: clamp(10px, 2vw, 25px);
+  gap: clamp(10px, 4.83vw, 55px);
 
   @media (min-width: 1065px) {
     .swiper {
@@ -60,6 +81,8 @@
   border-radius: 40px;
   border: 1px solid var(--secondary-color);
   backdrop-filter: blur(20px);
+
+
 }
 
 .advant_art {
