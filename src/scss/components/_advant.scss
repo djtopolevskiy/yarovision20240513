@@ -7,20 +7,20 @@
   border-bottom: 1px solid var(--secondary-color);
 
 	@include media-mx(1230) {
-		height: 533px;
+		height: 553px;
 	}
 
-	// @include media-mx(1023) {
-	// 	height: 577px;
+	@include media-mx(1023) {
+		height: 461px;
+	}
+
+	// @include media-mx(768) {
+	// 	height: 415px;
 	// }
 
-	@include media-mx(768) {
-		height: 415px;
-	}
-
-	@include media-mx(640) {
-		height: 361px;
-	}
+	// @include media-mx(640) {
+	// 	height: 415px;
+	// }
 }
 
 .advant__container {

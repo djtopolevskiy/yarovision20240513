@@ -6,13 +6,15 @@
 	display: flex;
 	justify-content: space-between;
 
+	@include media-mx(1024) {
+		height: 330px;
+	}
 
+// @include media-mx(768) {
+// 	height: 325px;
+// }
 
-@include media-mx(768) {
-	height: 325px;
-}
-
-@include media-mx(640) {
-	height: 250px;
-}
+// @include media-mx(640) {
+// 	height: 300px;
+// }
   }

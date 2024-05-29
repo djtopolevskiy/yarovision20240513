@@ -1,0 +1,22 @@
+
+.work{
+	background: #131313;
+}
+.work_area {
+	padding-top: clamp(20px, 4.16vw, 50px);
+	padding-bottom: clamp(20px, 4.16vw, 50px);
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	border-bottom: 1px solid var(--secondary-color);
+
+
+	h1 {
+	  font-size: clamp(30px, 4.16vw, 50px);
+	  font-style: normal;
+	  font-weight: 400;
+	  line-height: normal;
+	  text-transform: uppercase;
+	  color: #ffffff;
+	}
+  }

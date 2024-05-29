@@ -1,0 +1,91 @@
+.video {
+	position: relative;
+  }
+
+  .video_art {
+	display: flex;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+  }
+
+  .video_img {
+	// object-fit: fill;
+	max-width: 100%;
+	height: 100%;
+  }
+
+  .video_list {
+	padding-top: clamp(30px, 7.91vw, 95px);
+	padding-left: clamp(30px, 8.16vw, 98px);
+	padding-right: clamp(30px, 8.16vw, 98px);
+	padding-bottom: clamp(100px, 14.16vw, 170px);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	position: relative;
+  }
+
+  .video_block {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	z-index: 1;
+  }
+
+  .video_item {
+	width: 100%;
+	height: 100%;
+	border-radius: 22px;
+	border: 1px solidrgba(67, 142, 255, 0.53);
+
+	:hover {
+	  opacity: 0.8;
+	  cursor: pointer;
+	  transition:
+		opacity 124ms linear,
+		transform 124ms linear;
+	}
+  }
+
+  .video_vimeo {
+	border-radius: 22px;
+	padding: 56.25% 0 0 0;
+	position: relative;
+	:hover {
+	  opacity: 0.8;
+	  transition:
+		opacity 124ms linear,
+		transform 124ms linear;
+	}
+  }
+
+  .video_frame {
+	border-radius: 22px;
+	border: 1px solid rgba(67, 142, 255, 0.53);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+  }
+
+  .video_title {
+	color: #fff;
+	text-align: center;
+
+	font-size: 23px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	padding: 33px 0 33px;
+
+	a {
+	  color: #fff;
+	}
+
+	a:hover {
+	  color: rgba(67, 142, 255, 0.53);
+	}
+  }
