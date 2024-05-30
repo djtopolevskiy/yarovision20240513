@@ -1,0 +1,23 @@
+.project {
+	background: #131313;
+}
+
+.project_title {
+	padding-top: clamp(20px, 4.16vw, 50px);
+	padding-bottom: clamp(20px, 4.16vw, 50px);
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	border-top: 1px solid var(--secondary-color);
+	border-bottom: 1px solid var(--secondary-color);
+  }
+
+  .project_title_item {
+	font-size: clamp(30px, 4.16vw, 50px);
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	text-transform: uppercase;
+	text-align: center;
+	color: #ffffff;
+  }
