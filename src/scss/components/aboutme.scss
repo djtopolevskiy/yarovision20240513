@@ -1,0 +1,62 @@
+.aboutme_content {
+	padding-top: clamp(20px, 4.16vw, 50px);
+	padding-bottom: clamp(20px, 4.16vw, 50px);
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	justify-content: center;
+	align-content: center;
+	justify-items: center;
+	align-items: center;
+	border-top: 1px solid var(--secondary-color);
+	border-bottom: 1px solid var(--secondary-color);
+	background: #131313;
+	color: #ffffff;
+
+	h1 {
+	  font-size: clamp(30px, 4.16vw, 50px);
+	  font-style: normal;
+	  font-weight: 400;
+	  line-height: normal;
+	  text-transform: uppercase;
+	  justify-content: center;
+	}
+
+	p {
+	  max-width: 1100px;
+	  font-family: Montserrat;
+	  font-size: clamp(12px, 1.66vw, 20px);
+	  font-style: normal;
+	  font-weight: 100;
+	  line-height: 2;
+	  text-transform: uppercase;
+	  justify-content: center;
+	  padding: 20px 60px;
+	  text-align: center;
+	  padding-top: clamp(20px, 4.16vw, 50px);
+	  padding-bottom: clamp(20px, 4.16vw, 50px);
+	}
+  }
+
+  .about_logo {
+	display: flex;
+	justify-content: center;
+	gap: clamp(25px, 8.33vw, 100px);
+
+  }
+
+  .aboutme_link {
+	width: clamp(70px, 9.66vw, 116px);
+	justify-items: center;
+	align-self: center;
+
+	:hover {
+	  opacity: 0.8;
+	  transition:
+		opacity 124ms linear,
+		transform 124ms linear;
+	}
+	img {
+		width: 80px;
+	}
+  }
