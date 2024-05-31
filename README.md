@@ -1,6 +1,5 @@
-# Start Template: Gulp + WebPack + ESBuild-Loader
+# YAROVISION
 
-Сборку делал по примеру автора [youtube](https://www.youtube.com/watch?v=jU88mLuLWlk) канала: [Фрилансер по жизни](https://www.youtube.com/c/FreelancerLifeStyle)
 
 ## Для работы используйте такие команды
 
@@ -75,4 +74,4 @@ import * as helpers from './helpers' // './helpers/index.js'
 С 05.05.2024 появилась возможность запустить финальный вариант для превью на свой компьютере,
 для этого есть команда: `npm run preview`.
 
-По любым вопросам касающихся сборки пишите мне в [Telegram](https://t.me/StarkElessar).
+

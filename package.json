@@ -28,12 +28,12 @@
 		"scss",
 		"html"
 	],
-	"author": "Sergei Chevdar <serj.elessar@gmail.com>",
+	"author": "YAROVISION <yarovision.com>",
 	"license": "MIT",
 	"bugs": {
 		"url": "https://github.com/StarkElessar/gulp-2022/issues"
 	},
-	"homepage": "https://github.com/StarkElessar/gulp-2022#readme",
+	"homepage": "https://github.com/djtopolevskiy/yarovision20240513.git",
 	"devDependencies": {
 		"@archoleat/stylelint-config-extended-scss": "^1.6.9",
 		"autoprefixer": "^10.4.14",
