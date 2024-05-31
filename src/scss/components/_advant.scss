@@ -1,26 +1,25 @@
 @import "../config/mixins";
 @import "../config/functions";
 
-
 .advant {
   // position: relative;
   border-bottom: 1px solid var(--secondary-color);
 
-	@include media-mx(1230) {
-		height: 553px;
-	}
+  @include media-mx(1230) {
+    height: 553px;
+  }
 
-	@include media-mx(1023) {
-		height: 461px;
-	}
+  @include media-mx(1023) {
+    height: 461px;
+  }
 
-	// @include media-mx(768) {
-	// 	height: 415px;
-	// }
+  // @include media-mx(768) {
+  // 	height: 415px;
+  // }
 
-	// @include media-mx(640) {
-	// 	height: 415px;
-	// }
+  // @include media-mx(640) {
+  // 	height: 415px;
+  // }
 }
 
 .advant__container {
@@ -67,7 +66,7 @@
 .advant_blocks {
   display: flex;
   justify-content: space-between;
-  gap: clamp(0px, 6.25vw, 75px);
+  width: 100%;
   z-index: 1;
 }
 
@@ -81,8 +80,6 @@
   border-radius: 40px;
   border: 1px solid var(--secondary-color);
   backdrop-filter: blur(20px);
-
-
 }
 
 .advant_art {
@@ -92,7 +89,24 @@
   right: 0;
   top: 0;
   bottom: 0;
+
+  @include media-mx(1230) {
+    right: 0;
+  }
+
+  @include media-mx(1023) {
+    right: 0px;
+  }
+
+  @include media-mx(768) {
+    right: -70px;
+  }
+
+  @include media-mx(640) {
+    right: -60px;
+  }
 }
+
 .advant_img {
   // object-fit: cover;
   // flex: 0 0 100%;

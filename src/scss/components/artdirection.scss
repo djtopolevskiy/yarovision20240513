@@ -33,10 +33,7 @@
   border-radius: 15px;
   border: 1px solid var(--secondary-color);
   backdrop-filter: blur(20px);
-  // padding: 5px;
-  // width: 475px;
-  // max-width: 475px;
-  width: clamp(150px, 39.58vw, 475px);
+  width: clamp(250px, 39.58vw, 475px);
   z-index: 3;
   // @media (min-width: 1000px) {
   //   width: clamp(150px, 54.6vw, 475px);
