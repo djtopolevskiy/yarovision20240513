@@ -4,35 +4,20 @@
 .header {
   z-index: 8;
   inline-size: 100%;
-  // transition: background-color var(--bs-transition);
   position: fixed;
   margin-top: 5px;
   margin-bottom: 5px;
   backdrop-filter: blur(20px);
-
-  // .header__container
-//   &__container {
-    // display: flex;
-    // block-size: rem($header-height);
-    // align-items: center;
-
-    // .header-is-sticky & {
-    //   display: flex;
-    //   // block-size: rem($header-height - 50);
-    // }
-//   }
 }
 
 .header__row {
-//   inline-size: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 30px;
   z-index: 2;
   padding-right: rem($main-offset);
-  padding-left:  rem($main-offset);
-
+  padding-left: rem($main-offset);
 }
 
 .header_nav_list {
@@ -54,22 +39,20 @@
 }
 
 .wrap-button {
-	display: flex;
-	justify-content: start;
-	align-items: center;
-	width: 100px;
-	gap: 30px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 100px;
+  gap: 30px;
 }
 
 .chenge-theme {
-	display: flex;
-	justify-content: end;
-	align-items: center;
-	padding: 2px;
-	cursor: pointer;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding: 2px;
+  cursor: pointer;
 }
-
-
 
 // Burger
 

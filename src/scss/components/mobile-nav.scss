@@ -3,8 +3,6 @@
 	left: -100%;
 	width: clamp(150px, 50vw, 50%);
 	height: 100%;
-	// margin-left: clamp(0px, 45vw, 540px);
-	// margin-top: 70px;
 	z-index: 19;
 
 	display: flex;
@@ -14,8 +12,6 @@
 	padding-top: 40px;
 	padding-bottom: 40px;
 	background: linear-gradient(90deg, rgba(138, 138, 138, 1) 0%, var(--primary-color) 100%);
-
-
 }
 
 .mobile_nav_link {
@@ -29,10 +25,6 @@
 	left: 0;
 }
 
-// .mobile-nav a {
-
-// }
-
 .mobile-nav__list {
 	display: flex;
 	flex-direction: column;
@@ -40,13 +32,4 @@
 	row-gap: 40px;
 	font-size: 28px;
 	font-size: clamp(18px, 2.33vw, 28px);
-
-	// & .active {
-	// 	opacity: 0.5;
-	// }
-
-	// a:hover {
-	// 	color: rgba(67, 142, 255, 0.53);
-	// 	transition-duration: 225ms;
-	// }
 }

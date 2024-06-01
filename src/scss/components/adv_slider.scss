@@ -1,5 +1,4 @@
 .swiper {
-	// width: 520px;
 	width: clamp(250px, 43.33vw, 520px);
 	height: 411px;
 	z-index: 1;
@@ -9,12 +8,4 @@
 	@include media-mx(1024) {
 		height: 330px;
 	}
-
-// @include media-mx(768) {
-// 	height: 325px;
-// }
-
-// @include media-mx(640) {
-// 	height: 300px;
-// }
-  }
+}
